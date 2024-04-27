@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import  ReactDOM from 'react-dom/client';
+// import logo from './logo.svg';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   {/* /* Nested header element with h1,h2,h3 using React.createElement()  */  */}
+
+     {/* const heading1 = React.createElement("h1",  "Namaste React Live");
+    const heading2 = React.createElement("h2","laying the foundation");
+    const heading3 = React.createElement("h3","my header")
+
+
+    const header = React.createElement("div", "title", [heading1, heading2, heading3]); 
+ */}
+
     </div>
   );
 }
